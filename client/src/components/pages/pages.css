@@ -1,0 +1,18 @@
+.animation {
+    animation: animate .5s ease;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .auth {
+        width: 75%;
+    }
+}

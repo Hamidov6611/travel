@@ -1,0 +1,16 @@
+.navbar1 {
+    display: flex;
+}
+a {
+    text-align: none !important;
+}
+
+
+@media screen and (max-width:992px) {
+    
+    .nav1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
